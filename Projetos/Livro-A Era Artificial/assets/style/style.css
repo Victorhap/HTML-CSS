@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+div {
+    background-color: #f5f5f5;
+    padding: 50px;
+    text-align: center;
+    font-family: tahoma;
+    border-top: 1px solid #d5d5d5;
+}
+
+p {
+    text-align: center;
+    line-height: 28px;
+    max-width: 930px;
+    min-width: 320px;
+    margin: 15px auto 30px auto;
+}
+
+img{
+    width: 190px;
+}
+
+a {
+    color: #ffffff;
+    background-color: #49B970;
+    border-radius: 25px;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+span {
+    font-weight: bold;
+}
