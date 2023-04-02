@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    background-color:#F4F0E5;
+    font-family: tahoma, sans-serif;
+}
+
+.secao {
+    text-align: center;
+    margin: 20px auto;
+    width: 700px;
+}
+
+.imagem-logotipo {
+    width: 200px;
+}
+.imagem-produtos {
+    width: 700px;
+}
+.imagem-paes, .imagem-bolos{
+    width: 400px;
+}
+
+.secao-produtos {
+    background-color: #DE8E37;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.secao-produtos p{
+    width: 500px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+a {
+    color: #542F0c;
+    margin: 0 10px;
+}
+
+h1 {
+    border-top: 1px solid #DE8E37;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 28px;
+}
+
+h2 {
+    color: #DE8E37;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.secao-produtos h3 {
+    font-size: 25px;
+}
+
+.secao-produtos h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+span {
+    font-weight: bold;
+}
