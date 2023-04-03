@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    font-family: tahoma;
+}
+div{
+    margin: 10px auto;
+    width: 800px;
+    text-align: left;
+    line-height: 22px;
+}
+
+.topo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.capa {
+    background-image: url(../img/capa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 535px;
+}
+
+.capa div{
+    text-align: right;
+    padding-top: 30px;
+    line-height: 10px;
+}
+.capa h1{
+    font-size: 28px;
+}
+.capa h2{
+    font-size: 20px;
+}
+
+.sobre img{
+    width:250px;
+}
+
+span{
+    border-left: 2px solid black;
+    padding-left: 10px;
+    line-height: 30px;
+}
+
+.parallax{
+    background-image: url(../img/fundo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+}
+
+.parallax h3{
+    background-color: white;
+    text-align: center;
+    border-radius: 25px;
+    padding: 8px;
+    margin: 10px auto;
+    width: 150px;
+    font-size: 28px;
+}
+.parallax div{
+    padding-top: 35px;
+}
