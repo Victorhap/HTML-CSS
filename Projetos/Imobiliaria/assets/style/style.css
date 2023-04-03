@@ -1,0 +1,126 @@
+/*estilos globais*/
+body {
+    margin:0;
+    font-family: Tahoma,sans-serif;
+}
+div {
+    text-align: center;
+    padding: 30px 0;
+}
+p {
+    margin: 10px auto;
+    width: 980px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/*topo*/
+.topo {
+    background-color:#afddfb;
+    padding-bottom: 10px;
+}
+.topo p{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.topo a {
+    margin: 0px 10px;
+    color:#1d1d1d;
+    text-decoration: none;
+    border-bottom: 2px solid #1d1d1d;
+}
+.topo img{
+    width: 150px;
+}
+
+/*banner*/
+.banner{
+    margin-top: 50px;
+    padding-top: 0;
+}
+
+/*seção sobre*/
+h1{
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+.secao-sobre h2{
+    color: #1c81c0;
+}
+.secao-sobre img, .secao-corretores img{
+    width: 450px;
+}
+
+/*seção serviços*/
+.secao-servicos,.secao-contato {
+    background-color: #1d80c1;
+}
+.secao-servicos h2, .secao-contato h2{
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+}
+.secao-servicos p {
+    color: #ffffff;
+    line-height: 42px;
+    font-size: 22px;
+    text-align: center;
+    width:700px;
+}
+.secao-servicos ul {
+    margin: 40px auto;
+    width: 135px;
+}
+.secao-servicos li{
+    color: #ffffff;
+    line-height: 42px;
+    text-align: left;
+    font-size: 22px;
+}
+
+/*seção corretores*/
+.secao-corretores h2{
+    color: #1c81c0;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+/*seção contato*/
+.secao-contato p{
+    color: #ffffff;
+    background-color: #1d1d1d;
+    padding: 15px;
+    margin: 30px auto;
+}
+.secao-contato ul{
+    margin: 40px auto;
+    width: 210px;
+}
+.secao-contato li{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+.secao-contato a{
+    background-color: #ffffff;
+    color: #1d80c1;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+iframe{
+    width: 800px;
+    height: 350px;
+}
+
+/*spans*/
+.color-blue {
+    color: #1d80c1;
+    font-weight: bold;
+}
+.color-amarelo {
+    color: #fff81b;
+    font-weight: bold;
+}
