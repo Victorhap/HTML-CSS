@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.secao{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.topo {
+    background-color: rgb(63, 13, 179);
+    padding: 20px 0;
+    width:100%;
+    color: white;
+}
+.topo div {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0px auto;
+}
+.topo span{
+    padding-left: 25px;
+}
+.topo a {
+    background-color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.capa {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    line-height: 25px;
+}
+.sinopse p {
+    width: 100%;
+}
+.disponibilidade img, .disponibilidade p {
+    width: 100%;
+}
+
+.carrossel {
+    width: 100%;
+    overflow-x:scroll ;
+    height: 250px;
+    display: flex;
+}
+.galeria img {
+    width: 350px;
+    margin: 10px 15px;
+}
+
+.sombra {
+    box-shadow: 10px 10px 10px 0px gray;
+}
+
+.rodape {
+    background-color: rgb(63, 13, 179);
+    width:100%;
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+    
+}
