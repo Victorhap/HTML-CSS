@@ -54,27 +54,6 @@
     border-bottom: 3px solid #6592c9;
   }
   
-  .titulo-site {
-    background-image: url("../assets/img-fundo.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .titulo-site-descricao {
-    color: #fff;
-    font-size: 28px;
-    background-color: #0a9077b3;
-    border: 1px solid;
-    padding: 0 20px;
-    border-radius: 4px;
-    text-align: center;
-  }
-  
   .quartos {
     display: flex;
     justify-content: space-between;
@@ -150,52 +129,74 @@
   }
   
   
-  .rodape {
-    background-color: #49997d;
-    color:#fff;
-  }
-  
-  .rodape h4 {
-    font-size: 22px;
-  }
-  
-  .rodape-container {
+  .rodape{
+    background-color: #49997D;
+    width: 100%;
+    
+}
+
+.rodape-top{
+    max-width: 1024px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .rodape-info {
-    width: 23%;
+    flex-flow: row;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(2, 105, 81);
+    margin: 0 auto;
+    
+}
+
+.rodape-top .card{
+    width: 250px;
     display: flex;
+    flex-direction: row;
+    justify-content: left;
     align-items: center;
-  }
-  
-  .rodape-link{
-    margin-right: 10px;
+    padding: 20px;
     color: #fff;
+}
+
+.rodape-top a,.rodape-top p{
     text-decoration: none;
-  }
-  
-  .rodape-icone {
+    color: #fff;
+    font-size: 14px;
+}
+
+.rodape-top a:visited{
+    color: #fff;
+}
+
+.rodape-bottom{
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.endereco::before{
+    content: "";
+    background-image: url(../img/endereco.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 40px;
+    
+}
+
+.telefone::before{
+    content: "";
+    background-image: url(../img/telefone.png);
+    background-repeat: no-repeat;
     width: 40px;
     height: 40px;
-    margin-right: 10px;
-  }
-  
-  .rodape-info a{
-    text-decoration: none;
-    color: #fff;
-  }
-  
-  .rodape-copyright {
-    text-align: center;
-    padding: 20px;
-    border-top: 1px solid #3b7863;
-    color: #fff;
-    font-weight: 600;
-    width: 100%;
-  }
+}
+
+.calendario::before{
+    content: "";
+    background-image: url(../img/calendario.png);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
   
   .titulo-galeria {
     height: 30vh;
