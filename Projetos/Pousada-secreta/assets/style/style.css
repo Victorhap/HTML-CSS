@@ -34,8 +34,8 @@
 
 .topo p a{
     color: #3d3d3d;
-    padding: 10px;
-    font-size: 14px;
+    padding: 10px 15px;
+    font-size: 16px;
 }
 
 .topo p a:hover{
@@ -91,8 +91,11 @@
 }
 
 h2{
+    font-size: 32px;
+    font-weight: 500;
     margin-bottom: 20px;
     padding-top: 70px;
+    color: #3d3d3d;
 }
 
 .img-quartos img{
