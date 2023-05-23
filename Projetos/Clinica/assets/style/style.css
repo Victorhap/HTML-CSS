@@ -28,6 +28,7 @@ header div {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .links-topo a:hover {
@@ -42,9 +43,13 @@ header div {
     background-size: cover;
     background-position: center;
     height: 80vh;
+}
+
+.bg div{
+    height: 80vh;
     display: flex;
     justify-content: center;
-    
+    background-color: rgba(0, 0, 0, 0.418);
 }
 
 .bg article {
@@ -53,22 +58,23 @@ header div {
     width: 1024px;
     color: white;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 35px;
 }
+
     /* fim background imagem */
 
     /* inicio sobre */
-
 #sobre {
     width: 1024px;
     text-align: center;
     margin: 0 auto;
 }
 
-.parte-um {
+.parte-um, .parte-tres {
     margin: 30px 0;
 }
-.parte-um h2{
+
+.parte-um h2, .parte-tres h3{
     padding: 20px;
 }
 
@@ -91,7 +97,9 @@ header div {
 
 .cards{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 figure img{
@@ -100,10 +108,46 @@ figure img{
 }
 
 figure{
-    box-shadow: 1px 1px 10px  black;
+    box-shadow: 1px 1px 10px  rgb(85, 85, 85);
 }
 
 figcaption{
     padding: 15px;
     text-transform: uppercase;
 }
+
+#sobre a{
+    text-decoration: none;
+    color: white;
+    background-color:  rgb(65, 218, 245);
+    padding: 10px 25px;
+}
+    /* fim sobre */
+
+    /* inicio contato */
+#contato{
+    text-align: center;
+    margin: 50px auto;
+    width: 1024px;
+}
+
+#contato p{
+    padding: 10px;
+}
+    /* fim contato */
+
+    /* inicio footer */
+footer{
+    background-color: rgb(0, 129, 133);
+    color: white;
+    text-align: center;
+}
+
+footer p{
+    padding: 10px;
+}
+
+footer div{
+    padding-bottom: 30px;
+}
+    /* fim footer */
